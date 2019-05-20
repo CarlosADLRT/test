@@ -1,0 +1,21 @@
+@import "../../../Styles/variables";
+
+.selected-filter-bar {
+  margin-bottom: 20px;
+
+  &-item {
+    display: inline-block;
+
+    span {
+      border: 1px solid $greyish-brown;
+      font-size: $font-size-sm;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      i {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

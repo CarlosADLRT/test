@@ -1,0 +1,27 @@
+.font-size {
+  &-sm {
+    font-size: $font-size-sm !important;
+  }
+
+  &-base {
+    font-size: $font-size !important;;
+  }
+
+  &-md {
+    font-size: $font-size-md !important;;
+  }
+
+  &-lg {
+    font-size: $font-size-lg !important;;
+  }
+}
+
+.text-color {
+  &-grey {
+    color: $greyish-brown !important;
+  }
+
+  &-strong-pink {
+    color: $strong-pink;
+  }
+}

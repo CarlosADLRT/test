@@ -1,0 +1,12 @@
+.btn-custom-box {
+    position: fixed;
+    left: 50%;
+    background-color: #9347b2;
+    z-index: 950;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    transition: all 0.4s ease-out;
+    width: 150px;
+    height: 75px;
+    margin-left: -100px;
+}

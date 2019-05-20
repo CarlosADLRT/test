@@ -1,0 +1,29 @@
+@import '../../../Styles/_variables.scss';
+
+.brand-image{
+  width: 133px;
+  height: 38px;
+}
+
+
+
+.custom__badge {
+  color: white;
+  background-color: $purply;
+}
+
+.custom__list:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.custom__list__item {
+  color: $purply;
+  padding: 1.2rem 0;
+}
+
+.percentage-box{
+  border: 1px solid $purply;
+  width: 77px;
+  height: 30px;
+}
+

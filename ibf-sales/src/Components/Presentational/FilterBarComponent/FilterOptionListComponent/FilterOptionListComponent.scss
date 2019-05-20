@@ -1,0 +1,10 @@
+.filter-option-card {
+  border: 0;
+  border-radius: 0;
+  max-height: 344px;
+
+  .filter-option-card-body {
+    margin: 15px;
+    overflow: auto;
+  }
+}

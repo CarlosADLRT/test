@@ -1,0 +1,54 @@
+@import "../../../../Styles/variables";
+
+.information-percentage-container{
+  border: 2px solid $purply;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin: -10px 0;
+}
+
+.information-percentage-container-loader{
+  position: relative;
+  height: 100%;
+  background: $purply;
+}
+
+.percentage-text{
+  position: relative;
+  top: 3px;
+  text-transform: uppercase;
+  color: $purply;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.percentage-text:before{
+  content: attr(data-content);
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  overflow:hidden;
+  color:white;
+}
+
+.manager-separator {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 12px;
+}
+
+.manager-separator span {
+  background-color: #fff;
+  width: auto;
+  display: inline-block;
+  z-index: 3;
+  position: relative;
+  margin: 0;
+}
+
+.manager-card {
+  height: 111px;
+}

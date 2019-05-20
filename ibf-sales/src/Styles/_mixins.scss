@@ -1,0 +1,32 @@
+@mixin ibf-left-content {
+  width: 250px;
+
+  &__header,
+  &__detail,
+  &__content  {
+    padding: 0.625rem 1.125rem;
+  }
+  &__coupon{
+    padding: 0;
+  }
+
+  &__detail {
+    font-size: 0.875rem;
+    @extend %overflow-auto;
+  }
+
+  &__detail-title {
+    margin-bottom: 0.25rem;
+  }
+
+  &__content {
+    ul {
+      margin-bottom: 0;
+    }
+
+    ul li {
+      line-height: 1.625rem;
+    }
+
+  }
+}

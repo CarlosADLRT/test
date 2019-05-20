@@ -1,0 +1,11 @@
+@import "variables";
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-ibf-light-pink {
+  background-color: $light-pink !important;
+}

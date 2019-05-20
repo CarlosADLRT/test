@@ -1,0 +1,61 @@
+
+.input-calendar {
+  background: url(./Assets/Images/clear-filter.png) no-repeat scroll;
+  background-position: center right;
+  padding-right: 10px !important;
+}
+
+@import "~react-day-picker/lib/style.css";
+@import "~izitoast/dist/css/iziToast.css";
+@import "./Styles/app";
+@import "~bootstrap/scss/bootstrap";
+@import "Assets/Fonts/fa/scss/fontawesome";
+@import "Assets/Fonts/fa/scss/regular";
+@import "Assets/Fonts/fa/scss/brands";
+@import "Assets/Fonts/fa/scss/light";
+@import "Assets/Fonts/fa/scss/solid";
+@import "~react-image-lightbox/style.css";
+
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-size-smoothing: antialiased;
+  -moz-osx-font-size-smoothing: grayscale;
+  -moz-osx-font-size-smoothing: grayscale;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+//::-webkit-scrollbar {
+//  width: 10px;
+//}
+//
+//::-webkit-scrollbar-thumb {
+//  background: $light-pale-mauve;
+//}
+//
+//::-webkit-scrollbar-thumb:hover {
+//  background: $pale-mauve;
+//}

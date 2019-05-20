@@ -1,0 +1,12 @@
+.address-modal-list{
+  border: 1px solid rgba(0,0,0,.125);
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+  margin-bottom: -1px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .04);
+  }
+}

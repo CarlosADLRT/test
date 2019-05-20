@@ -1,0 +1,9 @@
+.dashboard-info {
+  display: flex;
+  flex-direction: column;
+
+  &-card {
+    height: 50%;
+    flex-grow: 1;
+  }
+}

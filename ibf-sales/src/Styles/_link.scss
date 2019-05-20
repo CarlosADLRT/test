@@ -1,0 +1,22 @@
+$colors-list: $light-pink $purply $greyish-brown;
+$colors-list: (
+        pink: $light-pink,
+        purply: $purply,
+        greyish-brown:$greyish-brown
+);
+
+@each $key,$val in $colors-list {
+  .link-ibf-#{$key} {
+    cursor: pointer;
+    color: $val;
+
+    &:hover {
+      color: darken($val, 10%);
+      text-decoration: underline;
+    }
+  }
+}
+
+.link-underlined {
+  text-decoration: underline;
+}

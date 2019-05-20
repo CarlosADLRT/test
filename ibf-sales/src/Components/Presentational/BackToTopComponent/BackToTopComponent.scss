@@ -1,0 +1,26 @@
+@import "../../../Styles/variables";
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: $strong-pink;
+  opacity: .5;
+  display: none;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  i {
+    font-size: 25px;
+    padding: 12px 14px;
+    color: $pale-mauve;
+  }
+
+}

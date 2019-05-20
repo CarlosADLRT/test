@@ -1,0 +1,22 @@
+.ribbon {
+  background: $purply;
+  height: 44px;
+  width: 40px;
+  position: absolute;
+  text-align: center;
+  font: 600 16px sans-serif;
+  color: #fff;
+  line-height: 27px;
+  border: 0;
+  left: 25px;
+}
+.ribbon:after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  height: 0;
+  width: 0;
+  border: solid 20px #9347b2;
+  border-bottom-color: transparent;
+}

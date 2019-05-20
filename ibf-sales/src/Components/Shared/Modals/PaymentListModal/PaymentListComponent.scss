@@ -1,0 +1,6 @@
+@import "../../../../Styles/variables";
+.card-list-item {
+  &.selectable:hover, &.selectable.selected {
+    background-color: $light-pink;
+  }
+}

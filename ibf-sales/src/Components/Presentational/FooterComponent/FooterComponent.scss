@@ -1,0 +1,10 @@
+@import "../../../Styles/variables";
+.ibf-footer {
+  background-color: $pale-mauve;
+  height: 195px;
+  margin-top: 2rem;
+  &-social{
+    margin-top: 2.5rem;
+    width: 120px;
+  }
+}

@@ -1,0 +1,40 @@
+label {
+  font-size: 0.875rem;
+}
+.custom-control-description {
+  color: #333;
+}
+
+.form-control[readonly].not-readonly {
+  background-color: #FFF;
+}
+
+.custom-select {
+  border: none;
+}
+
+.custom-questions {
+  .text-muted {
+    line-height: 1.2;
+    width: 72%;
+    margin-bottom: 0;
+  }
+
+  .custom-select {
+    width: 28%;
+    border: 1px solid #cccccc;
+  }
+}
+
+.custom-select-placeholder {
+  position: absolute;
+  left: 10px;
+  display: none;
+  top: 6px;
+  color: #868e96;
+  pointer-events: none;
+}
+
+.custom-select-placeholder.visible {
+  display: block;
+}

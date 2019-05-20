@@ -1,0 +1,30 @@
+.media-body {
+  flex: 1;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-list-header {
+  float: left;
+  width: 160px;
+  clear: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-list-value {
+  margin-left: 160px;
+}
+
+.user-list {
+  color: #777;
+}
+
+.user-list-modal-body {
+  overflow: auto;
+  max-height: 85vh;
+}

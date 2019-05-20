@@ -1,0 +1,49 @@
+$fa-font-path : '../src/Assets/Fonts/fa/webfonts';
+
+$purply: #9347b2;
+$ibf-purple: #4D148C;
+$greyish-brown: #544e48;
+$pale-mauve: #f9e1f0;
+$white: #ffff;
+$light-pink: #f4efed;
+$light-pale-mauve: #faece6;
+$ibf-fedex: #FDF9CD;
+$brownish-grey: #707070;
+$strong-pink: #e82893;
+$light-black: #211f1f;
+$font-size-sm: 0.85rem;
+$font-size: 1rem;
+$font-size-md: 1.125rem;
+$font-size-lg: 1.5rem;
+
+$ayu-bp-xl: 1200px;
+$ayu-bp-lg: 992px;
+$ayu-bp-md: 768px;
+$ayu-bp-sm: 576px;
+$ayu-bp: 576px;
+
+$theme-colors: (
+  primary: $purply,
+  secondary: $pale-mauve,
+  soft: $light-pink,
+  greyish-brown: $greyish-brown,
+  white: $white
+);
+
+$container-max-widths: (
+  xl: 1280px
+);
+
+// FONTS FAMILY
+$font-family-base: 'Exo 2',
+sans-serif;
+
+
+$input-border-radius: 0;
+$input-border-radius-lg: 0;
+$input-border-radius-sm: 0;
+
+$zindex-sticky: 900;
+
+
+

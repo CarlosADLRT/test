@@ -1,0 +1,60 @@
+@import "../../../Styles/variables";
+
+.iOS :host {
+  display: block;
+}
+
+.figure-empty-cart {
+  max-width: 350px;
+  img {
+    width: 100%;
+  }
+}
+
+.loading-blocker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 12;
+  &-wrapper {
+    padding: 10px 15px;
+    box-shadow: 1px 1px 4px #eff6ff;
+  }
+}
+
+.ibf-checkout-wrapper {
+  max-height: calc(100vh - 147px);
+  overflow: auto;
+}
+
+.list-shoppingcart-wrapper {
+  width: 100%;
+}
+
+.list-shoppingcart {
+  width: 100%;
+  margin: 0;
+  &__header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #4a4a4a;
+    background-color: $light-pink;
+    &-title{
+      font-size: 1rem;
+      line-height: 1.75em;
+      margin: 0;
+    }
+  }
+
+}
+
+@supports (position: sticky) {
+  .list-shoppingcart__header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+}

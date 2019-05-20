@@ -1,0 +1,68 @@
+.input-group-addon {
+  border: 1px solid transparent;
+  font-size: .875rem;
+}
+
+.group-input-append {
+  input {
+    border-right: 0;
+  }
+
+  .input-group-append {
+    border: 1px solid #ced4da;
+
+    i {
+      line-height: 17px;
+    }
+  }
+}
+
+.group-input-prepend {
+  input {
+    border-left: 0;
+  }
+
+  .input-group-append {
+    border: 1px solid #ced4da;
+  }
+}
+
+.landing-form {
+  &__wrapper {
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    overflow: hidden;
+  }
+
+  .clearfix {
+    border-bottom: solid 1px #cccccc;
+  }
+
+  .clearfix:last-child {
+    border-bottom: none;
+  }
+
+  .clearfix > div {
+    border-right: 1px solid #cccccc;
+  }
+
+  .clearfix > div:last-child {
+    border: none;
+  }
+
+  .form-control,
+  .input-group-addon {
+    border: 1px solid transparent;
+    font-size: $font-size-sm;
+  }
+
+  .form-control {
+    border-bottom: 1px solid transparent;
+    box-shadow: none !important;
+    padding-right: 0.3125rem;
+  }
+
+  .input-group-addon {
+    background: transparent;
+  }
+}

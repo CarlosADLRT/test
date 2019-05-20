@@ -1,0 +1,121 @@
+@import "../../../Styles/variables";
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 49px;
+  z-index: 900;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  .fa {
+    font-size: 16px;
+  }
+
+  .filter-bar-item {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+    .btn {
+      color: $greyish-brown;
+    }
+
+    .dropdown-menu {
+      background-clip: border-box;
+    }
+  }
+
+  .filter-bar-item:nth-child(1), .filter-bar-item:nth-child(3) {
+    .btn:focus {
+      box-shadow: none;
+    }
+
+    .dropdown-menu {
+      width: 100%;
+      border: 1px solid $pale-mauve;
+      border-radius: 0;
+      top: -2px !important;
+    }
+  }
+
+  .filter-bar-item:nth-child(2) {
+    .btn:focus {
+      box-shadow: none;
+    }
+
+    @media (min-width: 768px) {
+      .dropdown-menu {
+        width: 724px;
+        transform: translate(-106px, 31px) !important;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .dropdown-menu {
+        width: 980px;
+        transform: translate(-149px, 31px) !important;
+      }
+    }
+
+    @media (min-width: 1140px) {
+      .dropdown-menu {
+        width: 1136px;
+        transform: translate(-175px, 31px) !important;
+      }
+    }
+
+    .dropdown-menu {
+      background-color: $pale-mauve;
+      border: 0;
+      border-radius: 0;
+    }
+  }
+
+
+  @media (min-width: 769px) {
+    .filter-bar-item:nth-child(4)  {
+      min-width: 144px;
+      text-align: center;
+    }
+  }
+
+  .filter-bar-item:nth-child(6), .filter-bar-item:nth-child(7)  {
+    i.fa {
+      color: $strong-pink;
+    }
+  }
+}
+
+.extra-dates-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $pale-mauve;
+  font-size: 0.85rem;
+
+  .divider {
+    height: 20px;
+    border: 0.5px solid white;
+  }
+
+  a {
+    margin: 0.6rem;
+  }
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+  span {
+    line-height: 1.36;
+  }
+}
+
+a.purply-link {
+  color: $purply;
+  text-decoration: underline;
+}
